@@ -24,18 +24,15 @@
     margin: 5%;
 }
 
+#ra:hover{
+    filter: saturate(70%);
+}
+
 #myid{
     text-align: center;
     padding-top: 100px;
     margin: 0 auto;
     width: 100px;
-}
-img:hover {
-    filter: grayscale(0);
-}
-img:active {
-    opacity: 0.8;
-    transition: .1s ease-in-out;
 }
 
 body {
