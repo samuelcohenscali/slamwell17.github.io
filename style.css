@@ -25,7 +25,7 @@
 }
 
 #ra:hover{
-    filter: saturate(70%);
+    filter: brightness(0%);
 }
 
 #myid{
