@@ -31,6 +31,26 @@
     width: 100px;
 }
 
+a{
+    border-radius: 10px;
+}
+a:link, a:visited {
+    background-color: #222;
+    color: white;
+    padding: 0px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    transition: all 1s ease;
+
+}
+
+
+a:hover, a:active {
+    background-color: gray;
+    transition: all 1s ease;
+}
+
 body {
     background-color: #222;
     color: rgba(255, 255, 255, 0.75);
@@ -40,6 +60,12 @@ body {
     line-height: 1.65em;
 }
 
+img{
+    transition: all 10s ease;
+
+}
+
 img:hover{
-    filter: saturate(50%);
+    transition: all 10s ease;
+    filter: saturate(10000%);
 }
