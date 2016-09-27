@@ -24,10 +24,6 @@
     margin: 5%;
 }
 
-#ra:hover{
-    filter: brightness(0%);
-}
-
 #myid{
     text-align: center;
     padding-top: 100px;
@@ -44,6 +40,6 @@ body {
     line-height: 1.65em;
 }
 
-p {
-    margin: 0;
+img:hover{
+    filter: saturate(50%);
 }
